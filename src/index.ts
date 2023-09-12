@@ -11,6 +11,8 @@
 // @namespace    Nauxscript
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.js
 // ==/UserScript==
+/// <reference lib="dom" />
+/// <reference lib="dom.iterable" />
 
 (function () {
   'use strict'
