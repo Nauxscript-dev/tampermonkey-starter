@@ -8,6 +8,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@types/jquery": "^3.5.18",
     "typescript": "latest"
   },
   "devDependencies": {
