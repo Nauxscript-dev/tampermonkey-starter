@@ -1,12 +1,19 @@
 {
   "name": "tampermonkey-starter",
-  "module": "src/index.ts",
-  "private": "true",
   "type": "module",
-  "devDependencies": {
-    "bun-types": "latest"
+  "private": "true",
+  "module": "src/index.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "dependencies": {
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.41.0",
+    "bun-types": "latest",
+    "eslint": "^8.49.0",
+    "eslint-plugin-import": "^2.28.1"
   }
 }
